@@ -52,7 +52,7 @@ function pushToDOM(response) {
 function searchGif(key_words) {
   console.time("Data request");
   console.log("started gifs request");
-  let api_url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + key_words;
+  let api_url = "https://api.giphy.com/v1/gifs/search?api_key=A4whMgEB0rIiQzVl4HLG7paNS26dNi4z&q=" + key_words;
 
   let api_AJAX_call = new XMLHttpRequest();
   api_AJAX_call.open("GET", api_url);
